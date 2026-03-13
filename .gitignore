@@ -1,0 +1,24 @@
+# Виртуальное окружение
+venv/
+env/
+.pyvenv
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы установки
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
