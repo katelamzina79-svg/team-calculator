@@ -1,5 +1,4 @@
 # utils.py - Математические функции
-<<<<<<< HEAD
 def add(a, b):
 	return round(a+b, 2)
 def subtract(a,b):
@@ -8,7 +7,7 @@ def subtract(a,b):
 	return a-b
 def multiply(a,b):
 	return a*b
-def divide:
+def divide(a, b):
 	if b == 0:
 		raise ValueError("На ноль делить нельзя")
-	return a/b
+	return a / b
