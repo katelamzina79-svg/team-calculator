@@ -2,12 +2,15 @@
 
 APP_NAME = "Командный Калькулятор"
 VERSION = "1.0.0"
-AUTHORS = ["Екатерина Ламзина", "Александр Кожаринов", "Давид Канаев", "Татьяна Голикова", "Дарья Жарикова"]
+AUTHORS = ["Капитан", "Участник2", "Участник3", "Участник4", "Участник5"]
+
+# Для colorama (кросс-платформенные цвета)
+from colorama import Fore, Style
 
 COLORS = {
-    'info': '\033[94m',    
-    'success': '\033[92m', 
-    'warning': '\033[93m', 
-    'error': '\033[91m',   
-    'reset': '\033[0m'   
+    'info': Fore.CYAN,
+    'success': Fore.GREEN,
+    'warning': Fore.YELLOW,
+    'error': Fore.RED,
+    'reset': Style.RESET_ALL
 }
